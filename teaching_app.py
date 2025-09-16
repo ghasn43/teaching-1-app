@@ -13,15 +13,33 @@ lessons = {
             ("Apple", "تفاحة"),
             ("Banana", "موز"),
             ("Orange", "برتقال"),
+            ("Grapes", "عنب"),
+            ("Watermelon", "بطيخ"),
         ],
         "practice": {
-            "question": "اكتب الكلمة العربية لكلمة Apple:",
-            "answer": "تفاحة"
+            "question": "اكتب الكلمة العربية لكلمة Banana:",
+            "answer": "موز"
         },
         "story": {
-            "question": "Ali goes to the market. He wants to buy a 🍎. What does he ask?",
-            "choices": ["أعطني تفاحة", "أعطني كتاب"],
-            "answer": "أعطني تفاحة"
+            "question": "Sara eats a 🍌 every morning. What does she say?",
+            "choices": ["أحب موز", "أحب كتاب"],
+            "answer": "أحب موز"
+        }
+    },
+    "Animals": {
+        "words": [
+            ("Cat", "قطة"),
+            ("Dog", "كلب"),
+            ("Bird", "عصفور"),
+        ],
+        "practice": {
+            "question": "اكتب الكلمة العربية لكلمة Cat:",
+            "answer": "قطة"
+        },
+        "story": {
+            "question": "Omar sees a 🐕. What does he say?",
+            "choices": ["هذا كلب", "هذا كتاب"],
+            "answer": "هذا كلب"
         }
     }
 }
@@ -63,3 +81,4 @@ if st.button("Submit Answer"):
         st.success(ar("إجابة صحيحة ✅"))
     else:
         st.error(ar("إجابة خاطئة ❌"))
+
