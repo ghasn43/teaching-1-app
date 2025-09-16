@@ -1,0 +1,34 @@
+{
+  "Fruits": {
+    "words": [
+      ["Apple", "تفاحة"],
+      ["Banana", "موز"],
+      ["Orange", "برتقال"]
+    ],
+    "practice": {
+      "question": "اكتب الكلمة العربية لكلمة Apple:",
+      "answer": "تفاحة"
+    },
+    "story": {
+      "question": "Ali goes to the market. He wants to buy a 🍎. What does he ask?",
+      "choices": ["أعطني تفاحة", "أعطني كتاب"],
+      "answer": "أعطني تفاحة"
+    }
+  },
+  "Colors": {
+    "words": [
+      ["Red", "أحمر"],
+      ["Blue", "أزرق"],
+      ["Green", "أخضر"]
+    ],
+    "practice": {
+      "question": "اكتب الكلمة العربية لكلمة Red:",
+      "answer": "أحمر"
+    },
+    "story": {
+      "question": "The flag has 🟥. What color is this?",
+      "choices": ["أحمر", "أخضر"],
+      "answer": "أحمر"
+    }
+  }
+}
